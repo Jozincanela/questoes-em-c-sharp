@@ -23,7 +23,7 @@ namespace leitor_de_pag
             {
                 String line;
 
-                StreamReader sr = new StreamReader("C:\\Users\\72300663\\Documents\\teste2.txt");
+                StreamReader sr = new StreamReader("C:\\Users\\72300663\\Documents\\teste.txt");
 
                 line = sr.ReadLine();
    
