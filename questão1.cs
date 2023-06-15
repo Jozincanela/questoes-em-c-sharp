@@ -23,7 +23,7 @@ namespace leitor_de_pag
             {
                 String line;
 
-                StreamReader sr = new StreamReader("C:\\Users\\72300663\\Documents\\teste.txt");
+                StreamReader sr = new StreamReader("");
 
                 line = sr.ReadLine();
    
@@ -56,7 +56,7 @@ namespace leitor_de_pag
             try
             {
                 
-                StreamWriter sw = new StreamWriter("C:\\Users\\72300663\\Documents\\teste.txt");
+                StreamWriter sw = new StreamWriter("");
 
                 foreach(int num in lista_numeros)
                 {
