@@ -42,7 +42,7 @@ namespace leitor_de_pag
             {
                 String line;
 
-                StreamReader sr = new StreamReader("C:\\Users\\72300663\\Documents\\questao2\\questao2.txt");
+                StreamReader sr = new StreamReader("");
 
                 line = sr.ReadLine();
 
@@ -73,7 +73,7 @@ namespace leitor_de_pag
             try
             {
                 
-                StreamWriter sw = new StreamWriter("C:\\Users\\72300663\\Documents\\questao2\\questao2.txt");
+                StreamWriter sw = new StreamWriter("");
                 sw.WriteLine(frase);
 
 
